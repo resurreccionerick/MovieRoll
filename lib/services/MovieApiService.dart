@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:movie_roll/constants/constants.dart';
 import 'package:movie_roll/model/MovieModel.dart';
+import 'package:http/http.dart' as http;
 
 class MovieApiService {
   // Fetch popular movies from the API

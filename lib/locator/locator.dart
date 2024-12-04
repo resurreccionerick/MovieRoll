@@ -1,7 +1,8 @@
 import 'package:get_it/get_it.dart';
+import 'package:movie_roll/services/MovieApiService.dart';
 
 import '../ViewModel/MovieViewModel.dart';
-import '../services/MovieApiService.dart';
+
 
 // instance of GetIt
 final locator = GetIt.instance;
